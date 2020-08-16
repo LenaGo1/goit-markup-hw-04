@@ -106,17 +106,16 @@ body {
 /* contacts */
 .icon-mail,
 .icon-phone {
-  --color1: #757575;
-  --color4: #757575;
+  fill: #757575;
   vertical-align: middle;
   margin-right: 10px;
 }
-.icon-mail:hover,
-.icon-mail:focus,
-.icon-phone:hover,
-.icon-phone:focus {
-  --color1: #2196f3;
-  --color4: #2196f3;
+
+.contacts:hover > .icon-mail,
+.contacts:focus > .icon-mail,
+.contacts:hover > .icon-phone,
+.contacts:focus > .icon-phone {
+  fill: #2196f3;
 }
 .contacts {
   color: var(--primary-text-color);
