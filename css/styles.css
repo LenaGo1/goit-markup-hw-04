@@ -118,6 +118,11 @@ body {
   fill: #2196f3;
 }
 .contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
   color: var(--primary-text-color);
   text-decoration: none;
 }
@@ -320,7 +325,8 @@ p .position {
   letter-spacing: 0.03em;
 }
 
-.social-link:hover .social-link:focus {
+.social-link:hover,
+.social-link:focus {
   background-color: var(--accent-color);
   border-radius: 50%;
 }
@@ -373,10 +379,12 @@ p .position {
   fill: #afb1b8;
   display: flex;
 }
-.customer-link:hover {
+.customer-link:hover,
+.customer-link:focus {
   border: 1px solid #2196f3;
 }
-.customer-link:hover > .customer-icon {
+.customer-link:hover > .customer-icon,
+.customer-link:focus > .customer-icon {
   fill: #2196f3;
 }
 
@@ -442,13 +450,14 @@ p .position {
   align-items: center;
   letter-spacing: 0.03em;
 }
-.adress {
-  color: var(--second-accent-color);
+.footer .link {
+  color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+}
+.footer .adress {
+  color: var(--second-accent-color);
   font-style: normal;
+  font-weight: 400;
 }
 .footer .social-link {
   background: rgba(255, 255, 255, 0.1);
